@@ -8,28 +8,28 @@ export default function About() {
         <Image className="rounded" src={fotoBruno} alt="" />
       </div>
       <div className="flex flex-col pl-28 pr-28">
-        <h1 className=" text-white font-tilt-warp text-center">Sobre Mim</h1>
+        <h1 className=" text-white font-tilt-warp text-center">About me</h1>
         <p className="font-tilt-warp text-center text-white">
-          Meu nome é Bruno Fröhlich, nasci em 4 de fevereiro de 2006. Desde
-          muito cedo, desenvolver e programar se tornaram minhas paixões. Sou um
-          programador com conhecimento em várias linguagens e tecnologias,
-          incluindo JavaScript, TypeScript, Android Java, React.js e Node.js.
-          Atualmente, sou estagiário na Unimed Vale do Caí, onde utilizo
-          React.js para desenvolver interfaces web. Destaco um dos meus projetos
-          mais significativos, o desenvolvimento de um aplicativo Android que se
-          tornou fundamental para todos os funcionários da Unimed Vale do Caí,
-          otimizando as operações da empresa. Demonstro meu comprometimento com
-          a aprendizagem através da conclusão do curso de React.js da
-          RocketSeat. Além disso, estou expandindo meu conhecimento em Node.js e
-          React Native, também pela RocketSeat. Tenho experiência em
-          desenvolvimento fullstack e você pode conferir alguns dos meus
-          projetos na seção de projetos. Trabalho como freelancer,
-          principalmente na área de front-end, contribuindo para diversos
-          projetos. Minha habilidade com o Tailwind CSS me permite criar
-          interfaces de usuário elegantes e responsivas. Com um futuro promissor
-          pela frente e uma paixão contínua pelo desenvolvimento de software,
-          estou ansioso para continuar minha jornada na programação e contribuir
-          para projetos inovadores e desafiadores.
+          My name is Bruno Fröhlich, I was born on February 4, 2006. Since
+          Very early on, developing and programming became my passions. I am a
+          programmer with knowledge of several languages ​​and technologies,
+          including JavaScript, TypeScript, Android Java, React.js and Node.js.
+          I am currently an intern at Unimed Vale do Caí, where I use
+          React.js to develop web interfaces. I highlight one of my projects
+          most significant, the development of an Android application that
+          made it essential for all Unimed Vale do Caí employees,
+          optimizing company operations. I demonstrate my commitment to
+          learning through completing the React.js course at
+          RocketSeat. Additionally, I am expanding my knowledge in Node.js and
+          React Native, also by RocketSeat. I have experience in
+          fullstack development and you can check out some of my
+          projects in the projects section. I work as a freelancer,
+          mainly in the front-end area, contributing to several
+          projects. My skill with Tailwind CSS allows me to create
+          elegant and responsive user interfaces. With a promising future
+          ahead and a continued passion for software development,
+          I look forward to continuing my programming journey and contributing
+          for innovative and challenging projects.
         </p>
       </div>
     </div>
