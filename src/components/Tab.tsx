@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function Tab() {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1 text-white">
       <Link
         href="/about"
         className="flex items-center text-sm gap-1 pl-5 p-1 cursor-pointer transition-colors hover:bg-gray-700"

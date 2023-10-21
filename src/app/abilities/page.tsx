@@ -37,9 +37,11 @@ export default function Abilities() {
               className="w-full gap-3 h-full p-5 bg-gray-800 flex flex-col items-center rounded border-b-4 border-default hover:opacity-80"
             >
               <div>
-                <p className="text-default sm:text-sm">{item.name}</p>
+                <p className="text-white text-default sm:text-sm">
+                  {item.name}
+                </p>
               </div>
-              <div className="text-default">{item.icon}</div>
+              <div className="text-white text-default">{item.icon}</div>
             </div>
           )
         })}

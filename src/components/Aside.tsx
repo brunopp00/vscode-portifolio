@@ -38,12 +38,12 @@ export function Aside() {
         </div>
       </aside>
       <main className="w-[20%] bg-gray-800">
-        <div className="flex justify-between items-center p-2">
+        <div className="flex justify-between items-center text-white p-2">
           <p className="text-sm">Explorer</p>
           <MoreVertical size={20} />
         </div>
         <div className="flex flex-col justify-center">
-          <div className="flex items-center text-sm font-bold gap-1 bg-gradient-to-r from-gray-800 to-gray-700 ">
+          <div className="flex items-center text-white text-sm font-bold gap-1 bg-gradient-to-r from-gray-800 to-gray-700 ">
             <ChevronDown size={20} />
             <p>BRUNO FRÖHLICH</p>
           </div>

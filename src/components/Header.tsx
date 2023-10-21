@@ -6,7 +6,7 @@ export function Header() {
       <div className="w-[90%] flex items-center justify-center">
         <p className="text-gray-400">portifólio.json - vscode</p>
       </div>
-      <div className="w-[10%] flex">
+      <div className="w-[10%] flex text-white">
         <div className="w-[33%] flex items-center justify-center transition-colors hover:bg-gray-700 p-1">
           <Minus />
         </div>
