@@ -41,7 +41,7 @@ export const ItemProject = ({ project }: ItemProjectProps) => {
 
   return (
     <div
-      className="flex flex-col transform transition-transform hover:scale-110"
+      className="flex flex-col transform transition-transform hover:scale-105"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

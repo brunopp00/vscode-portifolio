@@ -7,13 +7,13 @@ export function Header() {
         <p className="text-gray-400">portifólio.json - vscode</p>
       </div>
       <div className="w-[10%] flex text-white">
-        <div className="w-[33%] flex items-center justify-center transition-colors hover:bg-gray-700 p-1">
+        <div className="w-[33%] flex items-center justify-center cursor-pointer transition-colors hover:bg-gray-700 p-1">
           <Minus />
         </div>
-        <div className="w-[33%] flex items-center justify-center transition-colors hover:bg-gray-700 p-1">
+        <div className="w-[33%] flex items-center justify-center cursor-pointer transition-colors hover:bg-gray-700 p-1">
           <Copy />
         </div>
-        <div className="w-[33%] flex items-center justify-center p-1 rounded-tr transition-colors hover:bg-red-600">
+        <div className="w-[33%] flex items-center justify-center cursor-pointer p-1 rounded-tr transition-colors hover:bg-red-600">
           <X />
         </div>
       </div>

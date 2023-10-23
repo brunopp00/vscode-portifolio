@@ -15,29 +15,17 @@ export function Aside() {
     <>
       <aside className="w-[5%] h-full flex flex-col justify-between p-2 bg-gray-700 rounded-bl">
         <div className="flex flex-col items-center gap-4">
-          <div className="text-slate-300">
-            <Files size={32} />
-          </div>
-          <div className="text-slate-500">
-            <Search size={32} />
-          </div>
-          <div className="text-slate-500">
-            <GitFork size={32} />
-          </div>
-          <div className="text-slate-500">
-            <Blocks size={32} />
-          </div>
+          <Files className="text-slate-300" size={32} />
+          <Search className="text-slate-500" size={32} />
+          <GitFork className="text-slate-500" size={32} />
+          <Blocks className="text-slate-500" size={32} />
         </div>
         <div className="flex flex-col items-center gap-4">
-          <div className="text-slate-500">
-            <UserCircle2 size={32} />
-          </div>
-          <div className="text-slate-500">
-            <Settings size={32} />
-          </div>
+          <UserCircle2 className="text-slate-500" size={32} />
+          <Settings className="text-slate-500" size={32} />
         </div>
       </aside>
-      <main className="w-[20%] bg-gray-800">
+      <main className="w-[30%] bg-gray-800">
         <div className="flex justify-between items-center text-white p-2">
           <p className="text-sm">Explorer</p>
           <MoreVertical size={20} />

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className="w-full h-full p-2 flex flex-col gap-5" id="sobre">
+    <div className="w-full h-full flex flex-col gap-5" id="sobre">
       <div className="flex justify-center">
         <Image className="rounded" src={fotoBruno} alt="" />
       </div>
