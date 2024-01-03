@@ -9,6 +9,7 @@ import {
   MoreVertical,
 } from 'lucide-react'
 import { Tab } from './Tab'
+import Link from 'next/link'
 
 export function Aside() {
   return (
@@ -33,7 +34,9 @@ export function Aside() {
         <div className="flex flex-col justify-center">
           <div className="flex items-center text-white text-sm font-bold gap-1 bg-gradient-to-r from-gray-800 to-gray-700 ">
             <ChevronDown size={20} />
-            <p>BRUNO FRÖHLICH</p>
+            <Link href="/">
+              <p>BRUNO FRÖHLICH</p>
+            </Link>
           </div>
           <Tab />
         </div>
